@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Characters() {
+function Footer() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function Characters() {
     )
 }
 
-export default Characters
+export default Footer
