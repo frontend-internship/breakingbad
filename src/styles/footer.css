@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #454545;
+}
+
+.footer ul{
+    list-style: none;
+    color: #f3f3f3;
+}

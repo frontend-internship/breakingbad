@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/header/Header';
 import Menu from  './components/menu/Menu';
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <Menu />
         <h1>content</h1>
       </div>
+
+      <Footer />
 
     </div>
   );
