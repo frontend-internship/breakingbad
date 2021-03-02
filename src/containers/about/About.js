@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Characters() {
+function About() {
     return (
         <div>
-            Characters
+            About
         </div>
     )
 }
 
-export default Characters
+export default About

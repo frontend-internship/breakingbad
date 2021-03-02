@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Characters() {
+function Settings() {
     return (
         <div>
-            Characters
+            Settings
         </div>
     )
 }
 
-export default Characters
+export default Settings
