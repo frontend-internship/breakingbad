@@ -1,0 +1,26 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home p{
+    margin: 2rem 10rem;
+    line-height: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-justify: distribute-all-lines;
+    color: #505050;
+
+}
+
+.home h1{
+    color: #0139a1;
+}
+
+.home img{
+    max-width: 40rem;
+    min-width: 10rem;
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+}
