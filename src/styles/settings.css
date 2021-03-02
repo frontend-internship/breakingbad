@@ -1,0 +1,32 @@
+.settings{
+    margin: 2rem 1rem;
+    padding-bottom: 5rem;
+}
+
+.settings p{
+    margin: 2rem 10rem;
+    line-height: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-justify: distribute-all-lines;
+    color: #505050;
+
+}
+
+.settings h1{
+    color: #0139a1;
+}
+
+.settings h2{
+    color: #444444;
+    text-align: left;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+
+.setting-list{
+    list-style: none;
+    text-align: left;
+    margin-left: 5rem;
+    color: #333333;
+}
+
