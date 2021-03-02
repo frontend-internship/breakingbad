@@ -49,9 +49,6 @@ function Menu() {
 
                     <div className="content">
                         <Switch>
-                            <Route path="/Home">
-                                <Home />
-                            </Route>
                             <Route path="/Characters">
                                 <Characters />
                             </Route>
@@ -63,6 +60,9 @@ function Menu() {
                             </Route>
                             <Route path="/About">
                                 <About />
+                            </Route>
+                            <Route path="/">
+                                <Home />
                             </Route>
                         </Switch>
                     </div>

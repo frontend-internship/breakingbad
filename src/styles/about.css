@@ -10,3 +10,9 @@
 .about h1{
     color: #0139a1;
 }
+
+.about img{
+    min-width: 10rem;
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+}
