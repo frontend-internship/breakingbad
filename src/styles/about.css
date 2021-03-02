@@ -1,0 +1,12 @@
+.about p{
+    margin: 2rem 10rem;
+    line-height: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-justify: distribute-all-lines;
+    color: #505050;
+
+}
+
+.about h1{
+    color: #0139a1;
+}

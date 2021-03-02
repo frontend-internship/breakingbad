@@ -4,30 +4,24 @@ function Footer() {
     return (
         <div className="footer">
             <ul>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
             </ul>
 
             <ul>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
             </ul>
 
             <ul>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
-                <li> - - - - - - - - - </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
+                <li> Lorem ipsum dolor sit amet consectetur </li>
             </ul>
 
         </div>
