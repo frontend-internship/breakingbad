@@ -3,6 +3,8 @@ import Header from './components/header/Header';
 import Menu from './components/menu/Menu';
 import Footer from './components/footer/Footer'
 
+import './styles/shared.css';
+
 function App() {
   return (
     <div className="App">

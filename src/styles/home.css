@@ -18,9 +18,25 @@
     color: #0139a1;
 }
 
+.home .img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .home img{
+    width: 50%;
+    
     max-width: 40rem;
     min-width: 10rem;
     margin: 2rem 1rem;
     border-radius: 1rem;
 }
+
+@media all and (max-width: 1000px) {
+    .home .img-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }

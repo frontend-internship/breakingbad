@@ -32,7 +32,7 @@ function Home() {
             <br />
             </p>
 
-            <div style={{display: 'flex', justifyContent: 'space-around'}}>
+            <div className="img-div">
                 <img src={image3} alt="" />
                 <img src={image4} alt="" />
             </div>

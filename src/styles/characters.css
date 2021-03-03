@@ -1,0 +1,38 @@
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.char-card{
+    background-color: #454545;
+    width: 12rem;
+    margin: 2rem 10px;
+    border-radius: 1rem;
+    padding: 2rem 4px;
+    border-radius: 50%;
+    color: #f3f3f3;
+    position: relative;
+    box-shadow: 4px 1px 10px #454545;
+}
+
+.char-card img{
+    width: 6rem;
+    height: 7rem;
+    border-radius: 50%;
+
+}
+
+.char-card .status{
+    box-shadow: 4px 1px 10px #454545;
+
+    height: 1rem;
+    width: 4rem;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: small;
+    position: absolute;
+    top: -1.5rem;
+    left: 3rem;
+}
