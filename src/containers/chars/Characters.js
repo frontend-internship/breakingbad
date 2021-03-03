@@ -1,11 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
+import { GetAllChars } from '../../redux/actions/chars/Characters';
 
-function Characters() {
+function Characters(props) {
+    useEffect(() => {
+        props.GetAllChars()
+    }, [])
+
+    console.log('props: ', props.Characters.fetching);
+
     return (
         <div>
-            Characters
+          { props.Characters.fetching ? ('Loading Characters...') : `${props.Characters.characters}` }
         </div>
     )
 }
 
-export default Characters
+const mapStateToProps = (state) => state;
+
+export default connect(mapStateToProps, {
+
+    GetAllChars,
+}) (Characters);
