@@ -1,43 +1,34 @@
-import * as types from '../../ActionTypes';
-
+import * as actionTypes from '../../ActionTypes';
 
 const initState = {
     characters: [],
     fetching: false,
 }
 
-const charactersReducer =  (state = initState, action) => {
-// console.log('from reducer: ',state, " type : " , action)
-    switch(action.type){
-        case types.GET_ALL_CHARACTERS_PENDING:
-            // console.log('from reducer PENDING: ',state, " action : " , action)
-
-            return{
+const charactersReducer = (state = initState, action) => {
+    // console.log('from reducer => state: ',state, " action : " , action)
+    switch (action.type) {
+        case actionTypes.GET_ALL_CHARACTERS_PENDING:
+            return {
                 ...state,
                 fetching: true
             }
-        case types.GET_ALL_CHARACTERS_FULFILLED:
-            // console.log('from reducer FULFILLED: ',state, " action : " , action)
-
-            return{
+        case actionTypes.GET_ALL_CHARACTERS_FULFILLED:
+            return {
                 ...state,
                 characters: action.payload,
                 fetching: false
             }
-        case types.GET_ALL_CHARACTERS_REJECTED:
-            // console.log('from reducer REJECTED: ',state,  " action : " , action)
-
-            return{
+        case actionTypes.GET_ALL_CHARACTERS_REJECTED:
+            return {
                 ...state,
                 fetching: false
             }
-        default: 
-        // console.log('from reducer default: ',state,  " action : " , action)
-
-            return{
+        default:
+            return {
                 ...state,
                 fetching: false
-            }  
+            }
     }
 }
 

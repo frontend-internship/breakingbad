@@ -55,15 +55,18 @@ function Characters(props) {
                 {props.Characters.fetching ? <Loader /> : getChars(searchkey, chars, limit)}
             </div>
             {
-                chars.length > limit ?
-                    (
-                        props.Characters.fetching ?
-                            ""
-                            :
-                            <div className="load-more" onClick={() => setLimit(limit + 12)}>Load more</div>
-                    )
+                !props.Characters.fetching ?
+                    (chars.length > limit ?
+                        (
+                            props.Characters.fetching ?
+                                ""
+                                :
+                                <div className="load-more" onClick={() => setLimit(limit + 12)}>Load more</div>
+                        )
+                        :
+                        "No More Characters")
                     :
-                    "No More Characters"
+                    "Loading..."
             }
         </div>
     )

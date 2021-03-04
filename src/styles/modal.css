@@ -1,0 +1,24 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.modal_content{
+    background-color: #454545;
+    border: 2px solid #656565;
+    border-radius: 2rem;
+    padding: 2rem ;
+}
+
+.close{
+    font-size: xx-large;
+    cursor: pointer;
+    color: rgb(240, 101, 129);
+}
