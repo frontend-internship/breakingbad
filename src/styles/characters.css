@@ -3,6 +3,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 100%;
 }
 
 .char-card{
@@ -35,4 +37,21 @@
     position: absolute;
     top: -1.5rem;
     left: 3rem;
+}
+
+.load-more{
+    padding: .8rem 1.5rem;
+    background-color: rgb(89, 129, 89);
+    display: inline;
+    border-radius: 2rem;
+    font-size: small;
+    color: white;
+    cursor: pointer;
+    transition:  all 300ms ease-in-out;
+}
+
+.load-more:hover{
+    font-size: medium;
+    background-color: rgb(120, 173, 120);
+
 }
